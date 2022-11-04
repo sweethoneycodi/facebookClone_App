@@ -12,7 +12,7 @@
 <%--/*<h1><%= "Hello World!" %>--%>
 <%--</h1>--%>
 <%--<br/>*/--%>
-<a href="hello-servlet">Hello Servlet</a>
+<%-- <a href="hello-servlet">Hello Servlet</a>--%>
 <div class=".container">
     <h1 align="center" background-color="blue">FACEBOOK</h1>
     <form  class="form" id="login">

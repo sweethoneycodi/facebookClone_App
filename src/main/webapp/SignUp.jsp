@@ -31,7 +31,7 @@
         <input type="password" class="form__input" autofocus placeholder="password" name="password">
     </div>
     <div class="form__input-group">
-        <input type="password" class="form__input" autofocus placeholder="Confirm password" name="confP">
+        <input type="password" class="form__input" autofocus placeholder="Confirm password" name="confPassword">
     </div>
     <button class="form__button" type="submit">continue</button>
 
