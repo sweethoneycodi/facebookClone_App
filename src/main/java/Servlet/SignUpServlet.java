@@ -8,7 +8,7 @@ import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
 
-@WebServlet(name = "RegistrationServlet", value = "/RegistrationServlet", urlPatterns = {"","/"})
+@WebServlet(name = "signUpServlet", value = "/signUp-Servlet")
 public class SignUpServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

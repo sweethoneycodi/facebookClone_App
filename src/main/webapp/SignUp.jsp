@@ -13,7 +13,7 @@
 </head>
 <body>
 <div>
-<form method="post" action="/"  class="form" id="Signup">
+<form method="post" action="signUp-Servlet"  class="form" id="Signup">
     <h1 class="form__title">Sign Up</h1>
     <div class="form__input-group">
         <input type="text" class="form__input" autofocus placeholder="First Name" name="firstname">
@@ -33,7 +33,7 @@
     <div class="form__input-group">
         <input type="password" class="form__input" autofocus placeholder="Confirm password" name="confPassword">
     </div>
-    <button class="form__button" type="submit">continue</button>
+    <button class="form__button" type="submit" value="signUp">submit</button>
 
     <p class="form__text">
         <a href="index.jsp" class="form__link" id="linkLogin">Already have an account? sign In.</a>
