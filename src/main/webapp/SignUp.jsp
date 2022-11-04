@@ -36,7 +36,7 @@
     <button class="form__button" type="submit" value="signUp">submit</button>
 
     <p class="form__text">
-        <a href="index.jsp" class="form__link" id="linkLogin">Already have an account? sign In.</a>
+        <a href="LogIn.jsp" class="form__link" id="linkLogin">Already have an account? sign In.</a>
     </p>
 
 </form>

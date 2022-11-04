@@ -15,15 +15,15 @@
 <%-- <a href="hello-servlet">Hello Servlet</a>--%>
 <div class=".container">
     <h1 align="center" background-color="blue">FACEBOOK</h1>
-    <form  class="form" id="login">
+    <form  method="post" class="form"  action="/LogInServlet" id="login">
         <h1 class="form__title">Login</h1>
         <div class="form__input-group">
-            <input type="text" class="form__input" autofocus placeholder="Username or email">
+            <input type="text" class="form__input" autofocus placeholder="Username ">
         </div>
         <div class="form__input-group">
             <input type="password" class="form__input" autofocus placeholder="password">
         </div>
-        <button class="form__button" type="submit">continue</button>
+        <button class="form__button" type="submit">Login</button>
         <p class="form__text">
             <a href="" class="form__link">forgot your password?</a>
         </p>
