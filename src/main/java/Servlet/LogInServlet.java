@@ -8,10 +8,11 @@ import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
 
-@WebServlet(name = "LogInServlet", value = "/LogInServlet")
+@WebServlet(  "/loginServlet")
 public class LogInServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("hello ");
 
     }
 
@@ -27,6 +28,7 @@ public class LogInServlet extends HttpServlet {
         LogInData logInData = new LogInData();
         if (logInData.validate(persons)) {
             response.sendRedirect("HomePage.jsp");
+//            getServletContext().getRequestDispatcher("/Homepage.jsp").forward(request, response);
         } else {
             response.sendRedirect("LogIn.jsp");
         };

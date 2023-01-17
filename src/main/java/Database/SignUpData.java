@@ -36,7 +36,7 @@ public class SignUpData {
 
         loadDriver(dbDriver);
         Connection connection = getConnection();
-        String result = "Data entered successfully";
+        String result =  "Data entered successfully";
         String sql = "insert into persons values (?,?,?,?,?,?)";
 
         PreparedStatement preparedStatement = null;

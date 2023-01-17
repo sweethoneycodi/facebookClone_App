@@ -34,6 +34,8 @@ public class LogInData {
         loadDriver(dbDriver);
         Connection connection = getConnection();
         boolean status = false;
+        System.out.println(persons.getUserName());
+        System.out.println(persons.getPassword());
 
         String sql = "select * from persons where username = ? and password = ?";
 

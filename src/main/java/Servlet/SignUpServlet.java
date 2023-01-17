@@ -34,7 +34,8 @@ public class SignUpServlet extends HttpServlet {
 
         SignUpData signUpData = new SignUpData();
         String result = signUpData.insert(persons);
-        response.getWriter().print(result);
+       // response.getWriter().print(result);
+        response.sendRedirect("LogIn.jsp");
 
     }
 }
